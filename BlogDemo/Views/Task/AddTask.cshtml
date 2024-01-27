@@ -1,0 +1,16 @@
+﻿@using BlogDemo.Controllers
+@model Class2
+@{
+    ViewData["Title"] = "AddTask";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>Görev</label>
+    <input type="text" asp-for="@Model.Taskk" class="form-control"/>
+    <label>Görev Tarihi</label>
+    <input type="date" asp-for="@Model.TaskkCreateDate" class="form-control" placeholder="gg.aa.yyyy"/>
+    <br />
+    <button type="submit" class="btn btn-info">Görev Ekle</button>
+</form>
+

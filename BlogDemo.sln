@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDemo", "BlogDemo\BlogDemo.csproj", "{847C8870-34CB-48D4-B03D-36B5C52857DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{DFF03CD4-C1AF-438A-AA89-EDB927CEC9E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{55650F70-5627-496C-A98D-474DB2D7E1BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{E4783542-CBD3-4CB8-9E20-E5EA6AF1783B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{5E0D71BA-0C6F-423F-B279-FDD94F136F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApiDemo", "BlogApiDemo\BlogApiDemo.csproj", "{B64A581C-4C27-4E30-B942-AF25DB7D198D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt_blog_webwizards", "jwt_blog_webwizards\jwt_blog_webwizards.csproj", "{CA7744A6-F0B7-4D7B-85E0-1431D501024B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847C8870-34CB-48D4-B03D-36B5C52857DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847C8870-34CB-48D4-B03D-36B5C52857DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847C8870-34CB-48D4-B03D-36B5C52857DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847C8870-34CB-48D4-B03D-36B5C52857DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF03CD4-C1AF-438A-AA89-EDB927CEC9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF03CD4-C1AF-438A-AA89-EDB927CEC9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF03CD4-C1AF-438A-AA89-EDB927CEC9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF03CD4-C1AF-438A-AA89-EDB927CEC9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55650F70-5627-496C-A98D-474DB2D7E1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55650F70-5627-496C-A98D-474DB2D7E1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55650F70-5627-496C-A98D-474DB2D7E1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55650F70-5627-496C-A98D-474DB2D7E1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4783542-CBD3-4CB8-9E20-E5EA6AF1783B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4783542-CBD3-4CB8-9E20-E5EA6AF1783B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4783542-CBD3-4CB8-9E20-E5EA6AF1783B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4783542-CBD3-4CB8-9E20-E5EA6AF1783B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0D71BA-0C6F-423F-B279-FDD94F136F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0D71BA-0C6F-423F-B279-FDD94F136F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0D71BA-0C6F-423F-B279-FDD94F136F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0D71BA-0C6F-423F-B279-FDD94F136F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64A581C-4C27-4E30-B942-AF25DB7D198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64A581C-4C27-4E30-B942-AF25DB7D198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64A581C-4C27-4E30-B942-AF25DB7D198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64A581C-4C27-4E30-B942-AF25DB7D198D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7744A6-F0B7-4D7B-85E0-1431D501024B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7744A6-F0B7-4D7B-85E0-1431D501024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7744A6-F0B7-4D7B-85E0-1431D501024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7744A6-F0B7-4D7B-85E0-1431D501024B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6300B469-665C-499B-9CC7-6A9AAF34AE01}
+	EndGlobalSection
+EndGlobal

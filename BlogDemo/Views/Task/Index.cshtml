@@ -1,0 +1,27 @@
+﻿@using BlogDemo.Controllers
+@model List<Class2>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Görev Sayfası</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Görev</th>
+        <th>Görev Tarihi</th>
+        <th>Sil</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Taskk</td>
+            <td>@item.TaskkCreateDate</td>
+            <td><a href="/Task/DeleteTask/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Task/AddTask/" class="btn btn-outline-primary">Yeni Görev Ekle</a>
